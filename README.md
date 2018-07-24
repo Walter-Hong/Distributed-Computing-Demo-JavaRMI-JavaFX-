@@ -1,4 +1,4 @@
-# Distributed-Computing-Demo-with-JavaFX-
+# Distributed Computing Demo using JavaRMI and JavaFX
 
 The aim of this demo is to implement a distributed system for a major computer manufacturer and distributor called Banana using JavaRMI. 
 This UI will use Javafx. A user- friendly interface created with JavaFx technology is designed to allow an easier understanding and to help the research of the distributed computing.
