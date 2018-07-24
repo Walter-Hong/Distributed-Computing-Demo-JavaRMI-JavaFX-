@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="D:/Documents/JavaProject2/BananaShop/src/sample/lib/mysql-connector-java-5.1.45-bin.jar" />
+  </library>
+</eclipse-userlibraries>
+

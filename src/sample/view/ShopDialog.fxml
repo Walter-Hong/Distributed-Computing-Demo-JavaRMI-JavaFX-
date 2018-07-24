@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="276.0" prefWidth="600.0"
+            styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.view.ShopDialogController">
+    <children>
+        <GridPane layoutX="6.0" layoutY="99.0" prefHeight="103.0" prefWidth="580.0" AnchorPane.leftAnchor="6.0"
+                  AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="99.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="288.0" minWidth="10.0" prefWidth="130.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="455.0" minWidth="10.0" prefWidth="454.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Label text="Shop Id" GridPane.halignment="CENTER"/>
+                <TextField fx:id="ShopIdTextField" prefHeight="41.0" prefWidth="397.0" GridPane.columnIndex="1"/>
+            </children>
+        </GridPane>
+        <HBox layoutX="460.0" layoutY="235.0" spacing="8.0" AnchorPane.bottomAnchor="14.0"
+              AnchorPane.rightAnchor="14.0">
+            <children>
+                <Button defaultButton="true" layoutX="458.0" layoutY="235.0" minWidth="59.0" mnemonicParsing="false"
+                        onAction="#okButtonPressed" text="OK"/>
+                <Button cancelButton="true" layoutX="527.0" layoutY="235.0" mnemonicParsing="false"
+                        onAction="#cancelButtonPressed" text="Cancel"/>
+            </children>
+        </HBox>
+        <Label layoutX="91.0" layoutY="47.0" text="Input your Shop Id continue">
+            <font>
+                <Font size="31.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
